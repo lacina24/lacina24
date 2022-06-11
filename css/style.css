@@ -1,0 +1,185 @@
+body {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #F1F1F1;
+	background: url(../images/bg.gif) repeat-x;
+	text-align: center;
+	margin: 0;
+}
+
+#wrapper {
+	width: 1000px;
+	margin: 0 auto;
+	text-align: left;
+}
+
+a {
+	color: #ff0000;
+	text-decoration: none;
+}
+
+p {
+	color: #777;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+#logo {
+	float: left;
+	padding-left: 20px;
+}
+
+#logo h2 {
+	font-size: 28px;
+	font-weight: normal;
+	color: #000;
+	text-shadow: #fff 0px 1px 0px;
+}
+
+#logo a, #logo img {
+	text-decoration: none;
+	border: 0px;
+}
+
+#menu {
+	height: 80px;
+	float: right;
+	padding-top: 70px;
+	margin-right: 100px;
+}
+
+#menu ul {
+	list-style: none;
+	margin: 0;
+	height: 50px;
+	padding: 0px 0px 0px 0px;
+}
+
+#menu li {
+	display: block;
+	float: left;
+	font-family: Arial;
+	color: #FFF;
+	border-right: 1px dashed #FFF;
+}
+
+#menu a {
+	color: #ff0000;
+	font-size: 13px;
+	display: block;
+	float: left;
+	text-decoration:underline;
+	text-transform: none;
+	font-family: Arial;
+	margin: 5px 20px 5px 20px;
+}
+
+#menu a:hover {
+	text-decoration: none;
+}
+	
+#header {
+	float: left;
+	width: 1000px;
+	height: 110px;
+	margin-top: 40px;
+	background: url(../images/bg_header.gif) no-repeat;
+}
+
+#title_head {
+	float: left;
+	padding-right: 10px;
+	padding-left: 10px;
+	width: 280px;
+}
+
+#title_head h2 {
+	color: #393939;
+	font-size: 18px;
+	font-weight: normal;
+	text-transform: uppercase;
+	font-family: Arial;
+}
+
+#title_head p {
+	color: #666;
+	font-size: 12px;
+}
+
+#title_head a {
+	padding: 5px;
+	background: #C9C9C9;
+	color: #444;
+}
+
+#title_head a:hover {
+	color: #333;
+}
+
+#box_news {
+	float: left;
+	width: 270px;
+	font-family: Arial;
+}
+
+#box_news h2, #box_sidebar h2 {
+	font-size: 22px;
+	text-transform: none;
+	color: #666;
+	border-bottom: 1px solid #CCC;
+	padding-bottom: 10px;
+}
+
+#box_news p, #box_sidebar p {
+	color: #777;
+	line-height: 23px;
+	text-align: left;
+	font-size: 12px;
+	padding: 5px;
+}
+
+#title_head img {
+	margin-right: 10px;
+}
+
+#title_head h2 a {
+	color: #666;
+	text-decoration: none;
+}
+
+#title_head h2 a:hover {
+	color: #ff0000;
+}
+
+
+#container {
+	float: left;
+	margin-bottom: 10px;
+	width: 1000px;
+	background: #fff;
+	padding-top: 30px;
+}
+
+.margin1 {
+	margin-left: 30px;
+}
+
+.margin2 {
+	margin-left: 60px;
+}
+
+#footer {
+	width: 1000px;
+	float: left;
+	font-size: 12px;
+	margin: 0 auto;
+	color: #000;
+	padding-left: 10px;
+	border-top: 1px solid #ccc;
+}
+
+#footer a {
+	color: #ff0000;
+}
